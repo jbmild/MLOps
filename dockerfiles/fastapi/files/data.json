@@ -1,0 +1,49 @@
+{
+  "target_col": "stroke",
+  "numeric_features": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "avg_glucose_level",
+    "bmi"
+  ],
+  "categorical_features": [
+    "gender",
+    "work_type",
+    "Residence_type",
+    "smoking_status",
+    "bmi_category",
+    "glucose_category",
+    "age_group"
+  ],
+  "feature_columns": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "avg_glucose_level",
+    "bmi",
+    "gender_Male",
+    "work_type_Never_worked",
+    "work_type_Private",
+    "work_type_Self-employed",
+    "work_type_children",
+    "Residence_type_Urban",
+    "smoking_status_Unknown",
+    "smoking_status_formerly smoked",
+    "smoking_status_never smoked",
+    "smoking_status_smokes",
+    "bmi_category_normal",
+    "bmi_category_sobrepeso",
+    "bmi_category_obeso",
+    "glucose_category_normal",
+    "glucose_category_prediabetes",
+    "glucose_category_diabetes",
+    "age_group_18-35",
+    "age_group_36-50",
+    "age_group_51-65",
+    "age_group_>65"
+  ],
+  "optimal_threshold": 0.441
+}

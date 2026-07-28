@@ -3,6 +3,7 @@ FROM python:3.12-slim
 WORKDIR /app
 COPY dockerfiles/fastapi/requirements.txt /requirements.txt
 COPY dockerfiles/fastapi/app.py /app/app.py
+COPY dockerfiles/fastapi/files /app/files
 COPY src /app/src
 
 ENV PYTHONPATH=/app/src
