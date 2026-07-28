@@ -109,7 +109,16 @@ Ejecutar de nuevo `process_etl_stroke` (opcional, para datos frescos) y luego el
 
 ## Integrantes
 
-Jonatan Mild · Valentin Torres · Belen Buceta · María Teresa Mallaupoma León
+Grupo del **Trabajo Práctico de Operaciones de Aprendizaje Automático I** — CEIA, FIUBA.
+
+- Jonatan Mild
+- Valentin Torres
+- Ignacio	Vollono Cadenazzi
+
+_Integrantes adicionales: pendiente de completar._
+
+El modelo desplegado proviene del TP de Aprendizaje de Máquina I (equipo distinto):
+[ceia-ap-maquina](https://github.com/jbmild/ceia-ap-maquina).
 
 ## Licencia
 
