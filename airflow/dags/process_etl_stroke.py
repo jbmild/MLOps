@@ -41,7 +41,7 @@ def process_etl_stroke():
 
         seed_path = "/opt/airflow/data/seed/healthcare-dataset-stroke-data.csv"
         if not os.path.exists(seed_path):
-            seed_path = "/opt/airflow/dags/../../data/seed/healthcare-dataset-stroke-data.csv"
+            raise FileNotFoundError(f"Seed CSV not found at {seed_path}")
 
         df = pd.read_csv(seed_path)
         wr.s3.to_csv(df=df, path="s3://data/raw/stroke.csv", index=False)
