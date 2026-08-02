@@ -103,6 +103,7 @@ Ejecutar de nuevo `process_etl_stroke` (opcional, para datos frescos) y luego el
 
 ## Documentación
 
+- [docs/ENTREGA-PARCIAL.md](docs/ENTREGA-PARCIAL.md) — resumen del avance para la primera entrega
 - [docs/MODELO.md](docs/MODELO.md) — decisiones de modelado del TP AMq1
 - [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md) — diagrama y flujo de datos
 - [docs/ROADMAP.md](docs/ROADMAP.md) — estado del proyecto
@@ -112,10 +113,8 @@ Ejecutar de nuevo `process_etl_stroke` (opcional, para datos frescos) y luego el
 Grupo del **Trabajo Práctico de Operaciones de Aprendizaje Automático I** — CEIA, FIUBA.
 
 - Jonatan Mild
-- Valentin Torres
-- Ignacio	Vollono Cadenazzi
-
-_Integrantes adicionales: pendiente de completar._
+- Valentín Torres
+- Ignacio Vollono Cadenazzi
 
 El modelo desplegado proviene del TP de Aprendizaje de Máquina I (equipo distinto):
 [ceia-ap-maquina](https://github.com/jbmild/ceia-ap-maquina).
